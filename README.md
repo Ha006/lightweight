@@ -3,11 +3,13 @@ Lorem ipsum
 
 Lorem ipsum is a simple dummy text
 
-This also includes:
+With these techniques:
 
 * Html 5
 * Css 3
 * Javascript
+
+This also includes:
 
 * Favicon
 * Apple touch logo (precomposed)
