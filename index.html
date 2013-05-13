@@ -1,30 +1,102 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />				
+		<meta name="robots" content="noindex, nofollow" />
+		<meta charset="utf-8" />
+		
+		<meta name="keywords" content="lorem ipsum, lorem, ipsum" />
+		<meta name="description" content="Lorem ipsum is a simple dummy text" />
+		<meta name="author" content="Henrik Albrechtsson" />
+		
 		<meta name="viewport" content="width=device-width" />
 		
-		<title>Lorem ipsum</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-mobile-web-app-title" content="Henrik Albrechtsson" />
 		
+		<title>Lorem ipsum</title>
+			
 		<link rel="shortcut icon" href="favicon.png" />
 		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
 		
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		
 		<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset200802.css" />
 		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+				
 		<script>
 			$(document).ready(function() {
+				if (window.navigator.standalone) {
+					$('a').click(function(event) {
+						var answer = confirm("Open in your browser?");
+						if (!answer) {
+							event.preventDefault();
+						} else {
+							window.location = $(this).attr('href');
+						}
+					});
+				}
 			});
-
 		</script>
 		
 		<style>
+			@import url("stylesheet.css");
+
+			::selection {}
+
 			body {
+				background: #EEE8D5;
+				color: #403E3B;
+				font-family: sans-serif;
+				font-size: 13px;
+				margin: 0;
+				overflow-y: scroll;
+				text-shadow: 1px 0 0 #FFF;
+			}
+
+			div#wrapper {
+				margin: 0 auto;
+				max-width: 960px !important;
+				width: 100%;
+			}
+
+			a {
+				color: #02819F;
+				text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+
+			.clearfix:after {
+				clear: both;
+				content: ".";
+				display: block;
+				height: 0;
+				visibility: hidden;
+			}
+			
+			@media (max-width: 640px) {}
+
+			@media print {
+				* {
+					background: #FFF;
+					color: #000
+				}
 			}
 		</style>
+
+		<!-- Google analytics -->
+
 	</head>
 	<body>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!-- Last updated: 2013-05-13 -->
+
+		<div id="wrapper">
+			<h1>Lorem ipsum</h1>
+			<div id="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
 	</body>
 </html>
