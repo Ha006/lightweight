@@ -9,12 +9,15 @@ With these techniques:
 * Css 3
 * Javascript
 
-This also includes:
+Files like:
 
 * Favicon
 * Apple touch logo (precomposed)
 * Reset.css
 * Latest minified jQuery
+
+This also includes:
+
 * Responsive design
 * Google Analytics
 
