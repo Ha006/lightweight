@@ -11,7 +11,7 @@ With these techniques:
 
 Files like:
 
-* Favicon
+* Favicon.ico
 * Apple touch logo (precomposed)
 * Reset.css
 * Latest minified jQuery
