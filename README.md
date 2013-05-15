@@ -1,4 +1,4 @@
-Lorem ipsum
+Handmade
 ===========
 
 Lorem ipsum is a simple dummy text
@@ -15,6 +15,7 @@ Files like:
 * Apple touch logo (precomposed)
 * Reset.css
 * Latest minified jQuery
+* Lorem ipsum.txt
 
 This also includes:
 
