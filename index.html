@@ -43,7 +43,12 @@
 			@import url("stylesheet.css");
 
 			::selection {}
-
+			
+			@font-face {
+				font-family: Awesome;
+				src: url('/font/awesome.ttf');
+			}
+			
 			body {
 				background: #EEE8D5;
 				color: #403E3B;
@@ -68,7 +73,15 @@
 			a:hover {
 				text-decoration: underline;
 			}
-
+			
+			input {
+				-webkit-appearance: none;
+			}
+			
+			h1 {
+				font-family: Awesome;
+			}
+			
 			.clearfix:after {
 				clear: both;
 				content: ".";
