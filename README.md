@@ -25,6 +25,7 @@ Handmade is instead of using plain files from the beginning of a project
 
 * Responsive design (100% media queries)
 * Google Analytics
+* Google Fonts
 * Lorem ipsum
 
 Lorem Ipsum is filler text of the printing and publishing industry (Lorem ipsum is a simple dummy text)
