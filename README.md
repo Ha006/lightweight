@@ -1,10 +1,10 @@
 **english** | [svenska](https://github.com/Ha006/handmade/blob/master/README.sv.md)
 - - -
 
-<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/1382809_531221563621299_352345554_n.png" width="180" height="180" alt="logo" align="right" />
-
 Handmade
 ===========
+
+<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/1382809_531221563621299_352345554_n.png" width="180" height="180" alt="logo" align="right" />
 
 Handmade is instead of using plain files from the beginning of a project
 
