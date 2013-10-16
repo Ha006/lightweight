@@ -1,24 +1,24 @@
 Handmade
 ===========
 
-Handmade is instead of using plain files from the beginning of a project
+Handmade är istället för att använda tomma filer från början av ett projekt
 
-With these techniques:
+Med dessa tekniker:
 
 * Html 5
 * Css 3
 * Javascript
 
-Files like:
+Filer som:
 
 * Favicon.ico
 * Apple touch logo (precomposed)
 * Reset.css
-* Latest minified jQuery
+* Senaste komprimerade jQuery
 
-This also includes:
+Detta inkluderar även:
 
-* Responsive design (100% media queries)
+* Responsiv design (100% media queries)
 * Google Analytics
 * Lorem ipsum
 
