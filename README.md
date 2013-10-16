@@ -1,4 +1,4 @@
-**english** | [svenska](https://github.com/Ha006/handmade/README.sv.md)
+**english** | [svenska](https://github.com/Ha006/handmade/blob/master/README.sv.md)
 - - -
 
 Handmade
