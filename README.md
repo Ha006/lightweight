@@ -8,6 +8,8 @@ Lightweight
 
 Lightweight is instead of using `plain files` from the beginning of a project
 
+More information and examples: http://lightweight.se
+
 ### With these techniques:
 
 * Html 5
