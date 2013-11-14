@@ -8,20 +8,20 @@ Lightweight
 
 Lightweight is instead of using `plain files` from the beginning of a project
 
-`With these techniques:`
+### With these techniques:
 
 * Html 5
 * Css 3
 * Javascript
 
-`Files like:`
+### Files like:
 
 * Favicon.ico
 * Apple touch logo (precomposed)
 * Reset.css
 * Latest minified jQuery
 
-`This also includes:`
+### This also includes:
 
 * Responsive design (100% media queries)
 * Google Analytics
