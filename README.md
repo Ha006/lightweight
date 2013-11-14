@@ -10,7 +10,7 @@ Lightweight is instead of using plain files from the beginning of a project
 
 **With these techniques:**
 
-* Html 5
+* `Html 5`
 * Css 3
 * Javascript
 
