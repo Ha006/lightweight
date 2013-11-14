@@ -8,20 +8,20 @@ Lightweight
 
 Lightweight är istället för att använda `tomma filer` från början av ett projekt
 
-### Med dessa tekniker:
+### Med dessa tekniker
 
 * Html 5
 * Css 3
 * Javascript
 
-### Filer som:
+### Filer som
 
 * Favicon.ico
 * Apple touch logo (precomposed)
 * Reset.css
 * Senaste komprimerade jQuery
 
-### Detta inkluderar även:
+### Detta inkluderar även
 
 * Responsiv design (100% media queries)
 * Google Analytics
