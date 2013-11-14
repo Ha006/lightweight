@@ -8,7 +8,7 @@ Lightweight
 
 Lightweight is instead of using `plain files` from the beginning of a project
 
-More information and examples: http://lightweight.se
+More information and examples at http://lightweight.se
 
 ### With these techniques:
 
