@@ -21,7 +21,9 @@ More information and examples at http://lightweight.se
 * Favicon.ico
 * Apple touch logo (precomposed)
 * Reset.css
-* Latest minified jQuery
+* Twitter Bootstrap (min)
+* Latest jQuery (min)
+* Angular.js (min)
 
 ### This also includes:
 
