@@ -29,6 +29,7 @@ Mer information och exempel på http://lightweight.se
 * Google Analytics
 * Google Fonts
 * Lorem ipsum
+* Clearfix
 
 **Lorem ipsum**
 
