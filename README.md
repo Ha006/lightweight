@@ -10,13 +10,13 @@ Lightweight is instead of using `plain files` from the beginning of a project
 
 More information and examples at http://lightweight.se
 
-### With these techniques:
+### With these techniques
 
 * Html 5
 * Css 3
 * Javascript
 
-### Files like:
+### Files like
 
 * Favicon.ico
 * Apple touch logo (precomposed)
@@ -25,7 +25,7 @@ More information and examples at http://lightweight.se
 * Latest jQuery (min)
 * Angular.js (min)
 
-### This also includes:
+### This also includes
 
 * Responsive design (100% media queries)
 * Google Analytics
