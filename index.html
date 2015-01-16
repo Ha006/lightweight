@@ -144,6 +144,24 @@
 				visibility: hidden;
 			}
 			
+			/* Responsive maps */
+			.map-container {
+				height: 0;
+				max-width: 100%;
+				overflow: hidden;
+				padding-bottom: 56.25%;
+				position: relative;
+			}
+			.map-container iframe,
+			.map-container object,
+			.map-container embed {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+			
 			@media (max-width: 640px) {}
 
 			@media print {
@@ -158,8 +176,6 @@
 
 	</head>
 	<body>
-		<!-- Last updated: 2014-12-11 -->
-
 		<div id="wrapper">
 			<h1>Lightweight</h1>
 			<div id="content">
