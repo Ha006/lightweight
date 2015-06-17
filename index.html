@@ -170,6 +170,19 @@
 				cursor: -moz-grabbing;
 			}
 			
+			.animation-element
+				animation: anim 2s infinite linear alternate;
+			}
+			
+			@keyframes anim {
+				0% {
+					opacity: 0.5;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
 			/* Responsive maps */
 			.map-container {
 				height: 0;
