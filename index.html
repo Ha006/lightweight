@@ -49,6 +49,9 @@
 						}
 					});
 				}
+				$('body').click(function(event) {
+					alert(event.target.tagName);
+				});
 			});
 			if ($(window).width() > 768) {}
 		</script>
