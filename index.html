@@ -50,7 +50,11 @@
 					});
 				}
 				$('body').click(function(event) {
-					alert(event.target.tagName);
+					console.log(event.target.tagName);
+				});
+				
+				$('body').keyup(function(event) {
+					console.log(event.keyCode);
 				});
 			});
 			if ($(window).width() > 768) {}
