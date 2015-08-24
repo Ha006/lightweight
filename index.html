@@ -96,40 +96,6 @@
 				width: 100%;
 			}
 			
-			/* VC - Abbreviation for vertical center */
-			
-			.vc1 {
-				#position: relative;
-				display: table;
-				height: 100%;
-				overflow: hidden;
-				width: 100%;
-			}
-			
-			.vc2 {
-				#position: absolute;
-				#top: 50%;
-				display: table-cell;
-				vertical-align: middle;
-			}
-			
-			.vc3 {
-				#position: relative;
-				#top: -50%;
-			}
-			
-			tab.current:after {
-				border-left: 8px solid transparent;
-				border-right: 8px solid transparent;
-				border-top: 8px solid #403E3B;
-				content: "";
-				left: 50%;
-				margin-left: 8px;
-				position: absolute;
-				top: 100%;
-				z-index: 1000;
-			}
-			
 			a {
 				color: #02819F;
 				text-decoration: none;
@@ -156,17 +122,51 @@
 				font-family: Awesome;
 			}
 			
-			.table-scroll {
-				overflow: scroll;
-				width: 100%;
-			}
-			
 			.clearfix:after {
 				clear: both;
 				content: ".";
 				display: block;
 				height: 0;
 				visibility: hidden;
+			}
+			
+			/* VC - Abbreviation for vertical center */
+			
+			.vc1 {
+				#position: relative;
+				display: table;
+				height: 100%;
+				overflow: hidden;
+				width: 100%;
+			}
+			
+			.vc2 {
+				#position: absolute;
+				#top: 50%;
+				display: table-cell;
+				vertical-align: middle;
+			}
+			
+			.vc3 {
+				#position: relative;
+				#top: -50%;
+			}
+			
+			.tab:after {
+				border-left: 8px solid transparent;
+				border-right: 8px solid transparent;
+				border-top: 8px solid #403E3B;
+				content: "";
+				left: 50%;
+				margin-left: 8px;
+				position: absolute;
+				top: 100%;
+				z-index: 1000;
+			}
+			
+			.table-scroll {
+				overflow: scroll;
+				width: 100%;
 			}
 			
 			input[type="range"] {
