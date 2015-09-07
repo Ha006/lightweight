@@ -36,9 +36,6 @@
 		
 		<script>
 			$(document).ready(function() {
-				$('table').each(function() {
-					$(this).wrap('<div class="table-scroll">');
-				});
 				if (window.navigator.standalone) {
 					$('a').click(function(event) {
 						var answer = confirm("Open in your browser?");
@@ -49,6 +46,9 @@
 						}
 					});
 				}
+				$('table').each(function() {
+					$(this).wrap('<div class="table-scroll">');
+				});
 				$('body').click(function(event) {
 					console.log(event.target.tagName);
 				});
