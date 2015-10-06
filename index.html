@@ -235,8 +235,47 @@
 			<h1>Lightweight</h1>
 			<section id="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				
+				<div class="slider-wrap">
+					<div class="slider">
+						<div class="item">
+							<img src="//placeholdit.imgix.net/~text?txtsize=100&bg=000&txtclr=fff&txt=Bild 1&w=468&h=263">
+						</div>
+						<div class="item">
+							<img src="//placeholdit.imgix.net/~text?txtsize=100&bg=000&txtclr=fff&txt=Bild 2&w=468&h=263">
+						</div>
+						<div class="item">
+							<img src="//placeholdit.imgix.net/~text?txtsize=100&bg=000&txtclr=fff&txt=Bild 3&w=468&h=263">
+						</div>
+						<div class="item">
+							<img src="//placeholdit.imgix.net/~text?txtsize=100&bg=000&txtclr=fff&txt=Bild 4&w=468&h=263">
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+		
+		<script>
+		var usearrows = true;
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+			usearrows = false;
+		}
+		var $slider = $('.slider').slick({
+			arrows: usearrows,
+			//autoplay: true,
+			//autoplaySpeed: 3000,
+			pauseOnHover: false,
+			draggable: true,
+			//dots: true,
+			//centerMode: true,
+			//slidesToShow: 1
+			//dots: true,
+			//infinite: true,
+			//speed: 500,
+			//fade: true,
+			//cssEase: 'linear'
+		});
+		</script>
 	</body>
 </html>
