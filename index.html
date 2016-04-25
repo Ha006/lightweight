@@ -44,6 +44,22 @@
 		<script src="//s0.2mdn.net/ads/studio/Enabler.js"></script>
 		
 		<script>
+			var i = 0;
+			var myVar = setInterval(function(){
+				myTimer()
+			}, 1000);
+			
+			function myTimer() {
+				i++;
+				if (i == 17) {
+						myStopFunction();
+				}
+			}
+			
+			function myStopFunction() {
+				clearInterval(myVar);
+			}
+			
 			$(document).ready(function() {
 				if (window.navigator.standalone) {
 					$('a').click(function(event) {
