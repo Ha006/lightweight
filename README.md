@@ -12,9 +12,9 @@ More information and examples at http://lightweight.se
 
 ### With these techniques
 
-* Html 5
-* Css 3
-* Javascript
+* HTML 5
+* CSS 3
+* JavaScript
 
 ### Files like
 
