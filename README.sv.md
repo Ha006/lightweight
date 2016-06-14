@@ -14,9 +14,9 @@ Mer information och exempel på http://lightweight.se
 
 ### Med dessa tekniker
 
-* Html 5
-* Css 3
-* Javascript
+* HTML 5
+* CSS 3
+* JavaScript
 
 ### Filer som
 
