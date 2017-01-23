@@ -45,6 +45,15 @@
 		<script src="//s0.2mdn.net/ads/studio/Enabler.js"></script>
 		
 		<script>
+			window.onload = function() {
+				e = document.querySelector("select");
+				e.onchange = function() {
+					var value = e.options[e.selectedIndex].value;
+					var text = e.options[e.selectedIndex].text;
+					alert(text + ' : ' + value);
+				}
+			}
+			
 			var i = 0;
 			var myVar = setInterval(function(){
 				myTimer()
