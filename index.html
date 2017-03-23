@@ -62,6 +62,20 @@
 				myTimer()
 			}, 1000);
 			
+			arr = [
+				'Första', 
+				'Andra',
+				'Tredje',
+				'Fjärde'
+			];
+			
+			obj = document.querySelectorAll('img');
+			obj.forEach(function(el, i) {
+				el.onclick = function() {
+					alert(arr[i]);
+				};
+			})
+			
 			function myTimer() {
 				i++;
 				if (i == 17) {
