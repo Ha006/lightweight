@@ -48,6 +48,20 @@
 		<script src="//s0.2mdn.net/ads/studio/Enabler.js"></script>
 		
 		<script>
+			var i = 0;
+			var myVar = setInterval(function(){
+				myTimer()
+			}, 1000);
+			
+			function myTimer() {
+				i++;
+				if (i == 17) {
+					myStopFunction();
+				}
+			}
+			
+			arr = ['First', 'Second', 'Third', 'Fourth'];
+			
 			window.onload = function() {
 				e = document.querySelector("select");
 				e.onchange = function() {
@@ -55,32 +69,13 @@
 					var text = e.options[e.selectedIndex].text;
 					alert(text + ' : ' + value);
 				}
-			}
-			
-			var i = 0;
-			var myVar = setInterval(function(){
-				myTimer()
-			}, 1000);
-			
-			arr = [
-				'Första', 
-				'Andra',
-				'Tredje',
-				'Fjärde'
-			];
-			
-			obj = document.querySelectorAll('img');
-			obj.forEach(function(el, i) {
-				el.onclick = function() {
-					alert(arr[i]);
-				};
-			})
-			
-			function myTimer() {
-				i++;
-				if (i == 17) {
-					myStopFunction();
-				}
+				
+				obj = document.querySelectorAll('img');
+				obj.forEach(function(el, i) {
+					el.onclick = function() {
+						alert(arr[i]);
+					};
+				});
 			}
 			
 			function myStopFunction() {
