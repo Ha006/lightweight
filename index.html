@@ -291,8 +291,65 @@
 				border: 0;
 			}
 			
+			.flex {
+				display: flex;
+				flex-wrap: wrap;
+				list-style: none;
+				padding: 2% 0 0 2%;
+			}
+			
+			.flex li {
+				margin: 0 2% 2% 0;
+				width: 18%;
+			}
+			
+			.flex li img {
+				display: block;
+				width: 100%;
+			}
+			
+			@media (max-width: 1600px) {
+				.flex {
+					padding: 3% 0 0 3%;
+				}
+				.flex li {
+					margin: 0 3% 3% 0;
+					width: 22%;
+				}
+			}
+			
+			@media (max-width: 1200px) {
+				.flex {
+					padding: 4% 0 0 4%;
+				}
+				.flex li {
+					margin: 0 4% 4% 0;
+					width: 29.333333%;
+				}
+			}
+			
+			@media (max-width: 960px) {
+				.flex {
+					padding: 5% 0 0 5%;
+				}
+				.flex li {
+					margin: 0 5% 5% 0;
+					width: 45%;
+				}
+			}
+			
+			@media (max-width: 640px) {
+				.flex {
+					padding: 10% 0 0 10%;
+				}
+				.flex li {
+					margin: 0 10% 10% 0;
+					width: 90%;
+				}
+			}
+			
 			@media (max-width: 640px) {}
-
+			
 			@media print {
 				* {
 					background: #fff;
@@ -327,6 +384,24 @@
 					</div>
 				</div>
 			</section>
+			
+			<ul class="flex">
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×668&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+			</ul>
 		</main>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
 		
