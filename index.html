@@ -64,16 +64,18 @@
 			
 			window.onload = function() {
 				e = document.querySelector("select");
-				e.onchange = function() {
-					var value = e.options[e.selectedIndex].value;
-					var text = e.options[e.selectedIndex].text;
-					alert(text + ' : ' + value);
+				if (document.contains(e)) {
+					e.onchange = function() {
+						var value = e.options[e.selectedIndex].value;
+						var text = e.options[e.selectedIndex].text;
+						alert(text + ' : ' + value);
+					}
 				}
 				
-				obj = document.querySelectorAll('img');
+				obj = document.querySelectorAll('.flex img');
 				obj.forEach(function(el, i) {
 					el.onclick = function() {
-						alert(arr[i]);
+						console.log(arr[i]);
 					};
 				});
 			}
@@ -291,6 +293,11 @@
 				border: 0;
 			}
 			
+			.slick-slider {
+				margin-bottom: 0;
+				padding: 2% 2% 0;
+			}
+			
 			.flex {
 				display: flex;
 				flex-wrap: wrap;
@@ -304,11 +311,20 @@
 			}
 			
 			.flex li img {
+				cursor: pointer;
 				display: block;
+				transition: 1s transform;
 				width: 100%;
 			}
 			
+			.flex li img:hover {
+				transform: scale(1.1);
+			}
+			
 			@media (max-width: 1600px) {
+				.slick-slider {
+					padding: 3% 3% 0;
+				}
 				.flex {
 					padding: 3% 0 0 3%;
 				}
@@ -319,6 +335,9 @@
 			}
 			
 			@media (max-width: 1200px) {
+				.slick-slider {
+					padding: 4% 4% 0;
+				}
 				.flex {
 					padding: 4% 0 0 4%;
 				}
@@ -329,6 +348,9 @@
 			}
 			
 			@media (max-width: 960px) {
+				.slick-slider {
+					padding: 5% 5% 0;
+				}
 				.flex {
 					padding: 5% 0 0 5%;
 				}
@@ -339,6 +361,9 @@
 			}
 			
 			@media (max-width: 640px) {
+				.slick-slider {
+					padding: 10% 10% 0;
+				}
 				.flex {
 					padding: 10% 0 0 10%;
 				}
@@ -347,9 +372,7 @@
 					width: 90%;
 				}
 			}
-			
-			@media (max-width: 640px) {}
-			
+						
 			@media print {
 				* {
 					background: #fff;
@@ -386,21 +409,21 @@
 			</section>
 			
 			<ul class="flex">
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×668&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
-				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=555&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×668&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
+				<li><img src="//placeholdit.imgix.net/~text?txtsize=100&bg=403E3B&txtclr=fff&txt=468×468&w=468&h=468"></li>
 			</ul>
 		</main>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
